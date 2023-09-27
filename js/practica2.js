@@ -115,9 +115,9 @@ function loadScene()
         0, -13, 10,
         19, -13, 10,
         38, -9, -5,
-        38, -13, -5,
+        38, -11, -5,
         38, -9, 5,
-        38, -13, 5
+        38, -11, 5
     ]), 3));
     pinzaGeo.setIndex(new THREE.BufferAttribute(new Uint16Array([
         0, 3, 2,
