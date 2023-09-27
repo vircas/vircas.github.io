@@ -102,22 +102,22 @@ function loadScene()
     mano.rotation.x = Math.PI/2; 
     mano.position.set(0,70,0);
 
-                // Pinzas
+                // Pinzas (https://technology.cpm.org/general/3dgraph/?graph3ddata=____bKw7ku2+uRQIBvcu2+uRQHw7ku2+zqSLBvcu2+zqSMw7kt8muRQHBvct8muRQIw7kt8mzqSJBvct8mzqSKFS4u2+v-AMFS4t8mv-ALFS4u2+yg4HFS4t8myg4)
     
     const pinzaGeo = new THREE.BufferGeometry();
     pinzaGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array([
-        0, -8, -10,
-        19, -8, -10,
-        0, -8, 10,
-        19, -8, 10,
-        0, -12, -10,
-        19, -12, -10,
-        0, -12, 10,
-        19, -12, 10,
-        38, -8, -5,
-        38, -12, -5,
-        38, -8, 5,
-        38, -12, 5
+        0, -9, -10,
+        19, -9, -10,
+        0, -9, 10,
+        19, -9, 10,
+        0, -13, -10,
+        19, -13, -10,
+        0, -13, 10,
+        19, -13, 10,
+        38, -9, -5,
+        38, -13, -5,
+        38, -9, 5,
+        38, -13, 5
     ]), 3));
     pinzaGeo.setIndex(new THREE.BufferAttribute(new Uint16Array([
         0, 3, 2,
